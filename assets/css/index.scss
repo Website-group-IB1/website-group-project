@@ -1,0 +1,87 @@
+
+
+a.nav-link:hover, a.nav-link:active {
+    font-size: 110%;
+    text-decoration-style: dotted;
+}
+.main-product {
+    padding: 35px 0 10px 0;
+    margin: 0px auto 0px auto;
+    background-color: transparent;
+    display: block;
+    box-sizing: border-box;
+}
+
+.main-product {
+    h2 {
+        display: block;
+        background: none;
+        text-align: center;
+        color: #005fb0;
+        font-size: 22px;
+        letter-spacing: 0px;
+        line-height: 32px;
+        font-weight: 500;
+        text-transform: uppercase;
+        padding: 0 12px;
+        margin: 0 0 35px;
+        position: relative;
+    }
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.card-body {
+    .btn-primary {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.container {
+    .card {
+        border: 0px;
+    }
+}
+
+.newsletter {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    li {
+        list-style: none;
+    }
+    ul {
+        text-align: right;
+    }
+}
+
+.site-footer {
+    li {
+        list-style: none;
+        padding: 20px;
+    }
+    p {
+        text-align: center;
+        font-size: 10px;
+    }
+}
+
+.newsletter {
+    .list-group-item {
+        border: 0px;
+    }
+
+    .col-md-6 {
+        display: flex;
+        justify-content: flex-end;
+        // padding: 30px;
+    }
+}
+
+
