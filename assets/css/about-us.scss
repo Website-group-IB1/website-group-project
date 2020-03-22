@@ -1,0 +1,79 @@
+.main-brand {
+    padding: 15px 0 15px 0;
+}
+
+.main-menu {
+    .navbar {
+        position: sticky;
+        background-color:#ffffff; 
+        border-top: 1px solid #c6c6c6;
+        border-bottom: 1px solid #c6c6c6;
+        margin-bottom: 40px;
+    }
+}
+
+.page-title {
+    margin-bottom: 30px;
+}
+
+.page-content {
+    padding: 0 0 30px 0;;
+}
+
+a.nav-link:hover, a.nav-link:active {
+    font-size: 110%;
+    text-decoration-style: dotted;
+}
+
+
+.site-footer {
+    li {
+        list-style: none;
+        padding: 20px;
+    }
+    p {
+        text-align: center;
+        font-size: 10px;
+    }
+
+    margin-top: 15px;
+}
+
+.newsletter {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    // padding: 20px;
+    li {
+        list-style: none;
+    }
+
+    .list-group-item {
+        border: 0px;
+    }
+
+    .social-media {
+        padding-top:20px;
+        border: 0px;
+        display: flex;
+        justify-content: flex-end;
+        // text-align: -webkit-center;
+        // padding: 30px;
+    }
+
+    .column-news {
+        text-align: center;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .mail {
+        margin-top: 20px;
+    }
+
+    text-align: -webkit-center;
+}
+
+
+
+
+

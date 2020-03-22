@@ -8,6 +8,15 @@
   background-color: #ffffff;
   border-top: 1px solid #c6c6c6;
   border-bottom: 1px solid #c6c6c6;
+  margin-bottom: 40px;
+}
+
+.page-title {
+  margin-bottom: 30px;
+}
+
+.page-content {
+  padding: 0 0 30px 0;
 }
 
 a.nav-link:hover, a.nav-link:active {
@@ -16,50 +25,8 @@ a.nav-link:hover, a.nav-link:active {
           text-decoration-style: dotted;
 }
 
-.main-product {
-  padding: 35px 0 30px 0;
-  margin: 0px auto 0px auto;
-  background-color: transparent;
-  display: block;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  text-align: -webkit-center;
-}
-
-.main-product h2 {
-  display: block;
-  background: none;
-  text-align: center;
-  color: #005fb0;
-  font-size: 22px;
-  letter-spacing: 0px;
-  line-height: 32px;
-  font-weight: 500;
-  text-transform: uppercase;
-  padding: 0 12px;
-  margin: 0 0 35px;
-  position: relative;
-}
-
-.card-title {
-  text-align: center;
-}
-
-.card-text {
-  text-align: center;
-}
-
-.card-body .btn-primary {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.container .card {
-  border: 0px;
+.site-footer {
+  margin-top: 15px;
 }
 
 .site-footer li {
@@ -110,4 +77,4 @@ a.nav-link:hover, a.nav-link:active {
 .newsletter .mail {
   margin-top: 20px;
 }
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=about-us.css.map */

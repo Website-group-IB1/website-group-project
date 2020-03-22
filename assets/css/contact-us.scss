@@ -8,6 +8,7 @@
         background-color:#ffffff; 
         border-top: 1px solid #c6c6c6;
         border-bottom: 1px solid #c6c6c6;
+        margin-bottom: 40px;
     }
 
 }
@@ -17,63 +18,9 @@ a.nav-link:hover, a.nav-link:active {
     text-decoration-style: dotted;
 }
 
-.main-product {
-    padding: 35px 0 30px 0;
-    margin: 0px auto 0px auto;
-    background-color: transparent;
-    display: block;
-    box-sizing: border-box;
-    text-align: -webkit-center;
+.page-title {
+    margin-bottom: 30px;
 }
-
-.main-product {
-    h2 {
-        display: block;
-        background: none;
-        text-align: center;
-        color: #005fb0;
-        font-size: 22px;
-        letter-spacing: 0px;
-        line-height: 32px;
-        font-weight: 500;
-        text-transform: uppercase;
-        padding: 0 12px;
-        margin: 0 0 35px;
-        position: relative;
-    }
-}
-
-.card-title {
-    text-align: center;
-}
-
-.card-text {
-    text-align: center;
-}
-
-.card-body {
-    .btn-primary {
-        display: flex;
-        justify-content: center;
-    }
-}
-
-.container {
-    .card {
-        border: 0px;
-    }
-}
-
-// .newsletter {
-//     border-top: 1px solid;
-//     border-bottom: 1px solid;
-//     li {
-//         list-style: none;
-//     }
-//     ul {
-//         text-align: right;
-//     }
-// }
 
 .site-footer {
     li {
@@ -121,5 +68,76 @@ a.nav-link:hover, a.nav-link:active {
     text-align: -webkit-center;
 }
 
+@media screen and (max-width: 600px) {
+    .store-data, .form-data input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+}
 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contactus {
+    // text-align: -webkit-center;
+    .crmField {
+        float: left;
+        width: 100%;
+        margin-top: 6px;
+    }
+
+}
+
+.store-data {
+    padding: 0px 20px 20px 0px;
+    float: left;
+    width: 30%;
+    .div {
+        padding: 20px 20px 0 20px;
+    }
+}
+
+.store-address {
+    border-top: 1px solid #c6c6c6;
+    .store-city {
+        margin-top: 10px;
+    }
+}
+
+.store-name {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 5px 0 0;
+}
+
+.store-location {
+    margin-top: 5px;
+
+    a {
+        color: black;
+    }
+}
+
+.store-phone {
+    margin-top: 5px;
+
+    a {
+        color: black;
+    }
+}
+
+.store-email {
+    margin-top: 5px;
+
+    a {
+        color: black;
+    }
+}
+
+.crmField {
+    margin-bottom: 15px;
+}
 
