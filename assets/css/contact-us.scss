@@ -1,0 +1,158 @@
+.main-brand {
+    padding: 15px 0 15px 0;
+}
+
+.main-menu {
+    .navbar {
+        position: sticky;
+        background-color:#ffffff; 
+        border-top: 1px solid #c6c6c6;
+        border-bottom: 1px solid #c6c6c6;
+        margin-bottom: 40px;
+    }
+
+}
+
+a.nav-link:hover, a.nav-link:active {
+    font-size: 110%;
+    text-decoration-style: dotted;
+}
+
+.page-title {
+    margin-bottom: 30px;
+}
+
+.site-footer {
+    li {
+        list-style: none;
+        padding: 20px;
+    }
+    p {
+        text-align: center;
+        font-size: 10px;
+    }
+    a {
+        color: black;
+    }
+}
+
+.newsletter {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    // padding: 20px;
+
+    li {
+        list-style: none;
+    }
+    
+    .list-group-item {
+        border: 0px;
+    }
+
+    .social-media {
+        padding-top:20px;
+        border: 0px;
+        display: flex;
+        justify-content: flex-end;
+        // text-align: -webkit-center;
+        // padding: 30px;
+    }
+
+    .column-news {
+        text-align: center;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .mail {
+        margin-top: 20px;
+    }
+
+    text-align: -webkit-center;
+}
+
+@media screen and (max-width: 600px) {
+    .store-data, .form-data,.col-75, .col-25, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contactus {
+    // text-align: -webkit-center;
+    .crmField {
+        float: left;
+        width: 100%;
+        // margin-top: 6px;
+    }
+
+}
+
+.store-data {
+    padding: 0px 20px 20px 0px;
+    float: left;
+    width: 30%;
+    .div {
+        padding: 20px 20px 0 20px;
+    }
+}
+
+.store-address {
+    border-top: 1px solid #c6c6c6;
+    .store-city {
+        margin-top: 10px;
+    }
+}
+
+.store-name {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 5px 0 0;
+}
+
+.store-location {
+    margin-top: 5px;
+
+    a {
+        color: black;
+    }
+}
+
+.store-phone {
+    margin-top: 5px;
+
+    a {
+        color: black;
+    }
+}
+
+.store-email {
+    margin-top: 5px;
+
+    a {
+        color: black;
+    }
+}
+
+.crmField {
+    margin-bottom: 10px;
+    // margin-top: 1px;
+}
+
+.col-75 {
+    // float: left;
+    // width: 10%;
+    margin-top: 0px;
+}
+
+.col-25 {
+    // float: left;
+    // width: 5%;
+    margin-top: 0px;
+}
