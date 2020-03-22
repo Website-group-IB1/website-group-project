@@ -14,46 +14,48 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="padding: .1rem 1rem;">
-        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <div class="main-navbar">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" style="padding: .1rem 1rem;">
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">My Account <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Login</a>
+                        <a class="nav-link" href="about-us.html">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">0 Item(s)</a>
+                        <a class="nav-link" href="contact-us.html">Contact Us</a>
                     </li>
                 </ul>
-            </form>
-        </div>
-    </nav>
+                <form class="form-inline my-2 my-lg-0">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">My Account <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">0 Item(s)</a>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </nav>
+    </div>
     <div class="main-brand">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-6">
                     <a class="navbar-brand" href="#" style="font-size: 50px;color: black;">FUSION</a>
-                    <a class="navbar-brand" href="#" style="font-size: 50px;">TECH</a>
+                    <a class="navbar-brand" href="#" style="font-size: 50px; color: chartreuse;">TECH</a>
                 </div>
                 <div class="col-sm-6" style="display: flex; justify-content: flex-end;">
                     <form class="form-inline my-2 my-lg-4">
@@ -66,21 +68,21 @@
     </div>
     <div class="main-menu">
         <!-- <div class="menu-bar"> -->
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light"
-            style="background-color: #ffffff; border-top: 1px solid #c6c6c6">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+            <!-- style="background-color: #ffffff; border-top: 1px solid #c6c6c6"> -->
             <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
                 <ul class="navbar-nav" style="text-align: center;">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">PC <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="pc.html">PC <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">DESKTOP</a>
+                        <a class="nav-link" href="desktop.html">DESKTOP</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">ACCESSORIES</a>
+                        <a class="nav-link" href="accessories.html">ACCESSORIES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">GADGET</a>
+                        <a class="nav-link" href="gadget.html">GADGET</a>
                     </li>
                 </ul>
             </div>
@@ -260,15 +262,16 @@
             </div>
         </div>
         <div class="newsletter">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-6">
-                        <div>
+                    <!-- <div class="col-md-12"> -->
+                    <div class="col-md-6 col-lg-6">
+                        <div class="mail">
                             <form class="form-inline my-2 my-lg-4">
                                 <div class="col-md-4 col-sm-12">
-                                    <h3>Mailing List</h3>
+                                    <h4>Mailing List</h4>
                                 </div>
-                                <div class="col-md-8 col-sm-12">
+                                <div class="column-news">
                                     <input class="form-control mr-sm-2" type="search"
                                         placeholder="Signup for our Newsletter" aria-label="mailinglist">
                                     <button type="button" class="btn btn-outline-info">Send</button>
@@ -276,18 +279,23 @@
                             </form>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="social-media" style="padding-top:30px;border: 0px;">
-                            <ul class="list-group list-group-horizontal-sm">
+                    <div class="col-sm-6 col-md-6">
+                        <div class="social-media">
+                            <ul class="list-group list-group-horizontal">
                                 <li class="list-group-item">Follow Us</li>
-                                <li class="list-group-item"><i style="font-size:24px" class="fa">&#xf09a;</i></li>
-                                <li class="list-group-item"><i style="font-size:24px" class="fa">&#xf099;</i></li>
-                                <li class="list-group-item"><i style="font-size:24px" class="fa">&#xf0d5;</i></li>
-                                <li class="list-group-item"><i style="font-size:24px" class="fa">&#xf167;</i></li>
+                                <li class="list-group-item"><a href="https://www.facebook.com/"><i style="font-size:24px"
+                                            class="fa">&#xf09a;</i></a></li>
+                                <li class="list-group-item"><a href="https://twitter.com/"><i style="font-size:24px"
+                                            class="fa">&#xf099;</i></a></li>
+                                <li class="list-group-item"><a href="https://aboutme.google.com"><i style="font-size:24px"
+                                            class="fa">&#xf0d5;</i></a></li>
+                                <li class="list-group-item"><a href="https://youtube.com"><i style="font-size:24px"
+                                            class="fa">&#xf167;</i></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
+                <!-- </div> -->
             </div>
         </div>
         <footer class="site-footer">
@@ -296,22 +304,30 @@
                     <div class="row">
                         <div class="col-lg-3">
                             <ul>
-                                <li>Category Index</li>
+                                <a href="category-index.html">
+                                    <li>Category Index</li>
+                                </a>
                             </ul>
                         </div>
                         <div class="col-lg-3">
                             <ul>
-                                <li>Terms and Condition</li>
+                                <a href="terms-condition.html">
+                                    <li>Terms and Condition</li>
+                                </a>
                             </ul>
                         </div>
                         <div class="col-lg-3">
                             <ul>
-                                <li>Become an Affiliate</li>
+                                <a href="affiliate.html">
+                                    <li>Become an Affiliate</li>
+                                </a>
                             </ul>
                         </div>
                         <div class="col-lg-3">
                             <ul>
-                                <li>Product Index</li>
+                                <a href="product-index.html">
+                                    <li>Product Index</li>
+                                </a>
                             </ul>
                         </div>
                     </div>
@@ -334,7 +350,7 @@
                 <!-- </footer> -->
             </div>
         </footer>
-
+    
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
             integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
             crossorigin="anonymous"></script>
