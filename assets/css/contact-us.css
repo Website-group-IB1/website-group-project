@@ -31,6 +31,10 @@ a.nav-link:hover, a.nav-link:active {
   font-size: 10px;
 }
 
+.site-footer a {
+  color: black;
+}
+
 .newsletter {
   border-top: 1px solid;
   border-bottom: 1px solid;
