@@ -71,7 +71,7 @@ a.nav-link:hover, a.nav-link:active {
 }
 
 @media screen and (max-width: 600px) {
-  .store-data, .form-data input[type=submit] {
+  .store-data, .form-data, .col-75, .col-25, input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
@@ -86,7 +86,6 @@ a.nav-link:hover, a.nav-link:active {
 .contactus .crmField {
   float: left;
   width: 100%;
-  margin-top: 6px;
 }
 
 .store-data {
@@ -138,6 +137,14 @@ a.nav-link:hover, a.nav-link:active {
 }
 
 .crmField {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+}
+
+.col-75 {
+  margin-top: 0px;
+}
+
+.col-25 {
+  margin-top: 0px;
 }
 /*# sourceMappingURL=contact-us.css.map */
